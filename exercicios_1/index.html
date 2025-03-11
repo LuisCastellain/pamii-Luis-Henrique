@@ -59,26 +59,64 @@
         // somaN();
 
         //exercicio 4
-        function primo() {
-            let num = parseInt(prompt("Digite um número:"));
+        // function primo() {
+        //     let num = parseInt(prompt("Digite um número:"));
 
-            if (num <= 1) {
-                alert("O número não é primo.");
-                return;
+        //     if (num <= 1) {
+        //         alert("O número não é primo.");
+        //         return;
+        //     }
+
+        //     for (let i = 2; i < num; i++) {
+        //         if (numero % i === 0) {
+        //             alert("O número não é primo.");
+        //             return;
+        //         }
+        //     }
+
+        //     alert("O número é primo.");
+        // }
+
+
+        // primo();
+
+
+        //exercicio 5
+        // function cont(pal, letra) {
+        //     let contador = 0;
+
+        //     pal = pal.toLowerCase();
+        //     letra = letra.toLowerCase();
+
+        //     for (let i = 0; i < pal.length; i++) {
+        //         if (pal[i] === letra) {
+        //             contador++;
+        //         }
+        //     }
+
+        //     return contador;
+        // }
+
+        // let pal = "programação";
+        // let letra = "a";
+        // alert(`A letra "${letra}" aparece ${cont(pal, letra)} vez(es) na palavra "${pal}".`);
+
+        //exercicio 6
+
+        function inverterString(str) {
+            let invertida = '';
+
+            for (let i = str.length - 1; i >= 0; i--) {
+                invertida += str[i]; 
             }
 
-            for (let i = 2; i < num; i++) {
-                if (numero % i === 0) {
-                    alert("O número não é primo.");
-                    return;
-                }
-            }
-
-            alert("O número é primo.");
+            return invertida;
         }
 
-        
-        primo();
+        let pal = "programação";
+        let invert = inverterString(pal);
+        alert(`A palavra invertida é: "${invert}"`);
+
 
 
     </script>
