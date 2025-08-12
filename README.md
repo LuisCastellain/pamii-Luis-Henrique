@@ -30,8 +30,8 @@ git config --global user.name "Seu Nome"
 git config --global user.email "seu-email@exemplo.com"
 
 # Clonar o repositório
-git clone https://github.com/MatheusCostta07/pamII-matheus-costa.git
-cd pamII-matheus-costa/
+git clone https://github.com/LuisCastellain/pamii-Luis-Henrique.git
+cd pamii-Luis-Henrique/
 
 # Verificar status, adicionar mudanças, criar commit e enviar para o GitHub
 git status
